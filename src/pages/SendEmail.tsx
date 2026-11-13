@@ -49,7 +49,6 @@ export function SendEmail() {
         },
         onSuccess: () => {
             alert("E-mail enviado com sucesso!")
-            navigate("/enviados")
         },
         onError: (error) => {
             if (error instanceof AxiosError) {
